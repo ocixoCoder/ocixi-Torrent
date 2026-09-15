@@ -1,0 +1,26 @@
+{
+  "name": "ocixi-torrent",
+  "version": "1.0.0",
+  "description": "A free console-based torrent downloader with VPN support and batch downloading",
+  "main": "index.mjs",
+  "bin": {
+    "ocixi-torrent": "./index.mjs"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "torrent",
+    "downloader",
+    "console",
+    "webtorrent",
+    "vpn"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "webtorrent": "^2.8.5"
+  }
+}
